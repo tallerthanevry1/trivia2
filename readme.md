@@ -15,7 +15,7 @@ A trivia game with 9 questions, 2 players about 90's pop culture.
 
 ### Wireframes
 
-![SOme text](https://i.ytimg.com/vi/mRf3-JkwqfU/mqdefault.jpg)
+![SOme text]()
 
 ### Daily Plan
 

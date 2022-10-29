@@ -75,6 +75,14 @@ const setBoard = (q) => {
     })
 }
 
+// Reset Button
+$(".reset").off()
+$(".reset").on("click", (event) => {
+    chooseAnswer(event, randomQuestion)
+    $p1score.text(state.player1=0)
+    $p2score.text(state.player2=0)
+    console.log(state.player1, state.player2, "<< player1, player2")
+
 // Main App Logic
 
 const URL ="https://cdn.contentful.com/spaces/cp3306uz387z/environments/master/entries?access_token=lZJNAYjhNu6iK5QX0e7oQUtyniE2jrUYL_DFbpKvvCA&content_type=triviaQs"
